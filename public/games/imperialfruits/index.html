@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--
+
+        <script src="https://pixijs.download/release/pixi.min.js"></script>
+        <script src="symbols.js" type="text/javascript"></script>
+    -->
+    <style>
+      #scrollingTextbox {
+        width: 800px;
+        height: 100px;
+        border: 1px solid #ccc;
+        padding: 10px;
+        overflow-y: auto;
+        font-family: Arial, sans-serif;
+        font-size: 14px;
+        background-color: #f9f9f9;
+      }
+      .content {
+        display: flex;
+        flex-direction: column;
+      }
+      .content {
+        display: unset;
+        flex-direction: unset;
+      }
+      body {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start; /* Align items to the top */
+      }
+
+      #game-container {
+        width: 800px; /* Adjust as needed */
+      }
+
+      #ReadMe {
+        margin-left: 20px; /* Adds spacing between game-container and ReadMe */
+        width: 400px; /* Adjust width as needed */
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+
+      th,
+      td {
+        border: 1px solid black;
+        padding: 3px;
+        text-align: center;
+        width: 14%; /* Adjust as needed for equal column width */
+      }
+
+      th {
+        background-color: #f2f2f2;
+      }
+    </style>
+    <script defer src=".././imperialfruits/main.js"></script>
+  </head>
+  <body>
+    <div>
+      <div id="game-container"></div>
+      <div id="scrollingTextbox"></div>
+      <label for="gaffe">Gaffe</label>
+      <input type="text" id="gaffe" name="gaffe" />
+      <label for="seed">Seed</label>
+      <input type="text" id="seed" name="seed" />
+    </div>
+    <div id="ReadMe">
+      <h3>Gameplay</h3>
+      <div>
+        When a wild appears on screen, it will expand to fill its reel. After wins are awarded, all reels that are not
+        filled with wilds will spin again. Wins are awarded again and, if a new wild has landed, the reels without wilds
+        spin again. Respins continue until a spin occurs in which no new wilds land. This makes for a maximum of 3
+        respins, which would result in the the middle three reels filled with wilds for a huge win!
+      </div>
+      <br />
+      <div>
+        To see a big win with multiple respins paste "0,0,0,0,0,0,14,69" into the Gaffe text box below the game and
+        click spin.
+      </div>
+      <h3>Pay Table</h3>
+      <table id="PayTable">
+        <tr>
+          <th>Symbol</th>
+          <th>2x</th>
+          <th>3x</th>
+          <th>4x</th>
+          <th>5x</th>
+        </tr>
+        <tr>
+          <td>Joker (Wild)</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>Seven</td>
+          <td>0.2</td>
+          <td>1.5</td>
+          <td>8</td>
+          <td>20</td>
+        </tr>
+        <tr>
+          <td>Melon</td>
+          <td>0</td>
+          <td>1</td>
+          <td>3</td>
+          <td>10</td>
+        </tr>
+        <tr>
+          <td>Grapes</td>
+          <td>0</td>
+          <td>0.4</td>
+          <td>1.4</td>
+          <td>4</td>
+        </tr>
+        <tr>
+          <td>Pear</td>
+          <td>0</td>
+          <td>0.4</td>
+          <td>1.4</td>
+          <td>4</td>
+        </tr>
+        <tr>
+          <td>Plum</td>
+          <td>0</td>
+          <td>0.2</td>
+          <td>0.4</td>
+          <td>0.8</td>
+        </tr>
+        <tr>
+          <td>Orange</td>
+          <td>0</td>
+          <td>0.2</td>
+          <td>0.4</td>
+          <td>0.8</td>
+        </tr>
+        <tr>
+          <td>Lemon</td>
+          <td>0</td>
+          <td>0.2</td>
+          <td>0.3</td>
+          <td>0.6</td>
+        </tr>
+        <tr>
+          <td>Cherry</td>
+          <td>0</td>
+          <td>0.2</td>
+          <td>0.3</td>
+          <td>0.6</td>
+        </tr>
+        <tr>
+          <td>Diamond Scatter</td>
+          <td>0</td>
+          <td>2</td>
+          <td>0</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>Scatter</td>
+          <td>0</td>
+          <td>0.3</td>
+          <td>2</td>
+          <td>10</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

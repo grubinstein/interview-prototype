@@ -1,0 +1,130 @@
+*********************
+* 25_03_10 V0.01 1B *
+*********************
+
+------
+CONFIG
+------
+
+  Timestamp: 10/03/2025, 19:27:27
+  Maths Version: v0.01
+  Stake Type: default
+  Random Seed: 634825809
+  Stake: 100
+  Command: sim -r 1b --playnetic --excel
+  Cycles run: 3,000,000
+
+----------
+REGULATORY
+----------
+
+  1000x Win Hit Rate (>300k): ∞
+  500x Win Hit Rate: 150,000.00
+  Verification RTP: 92.76% (first 1m)
+  Max Single Base Game Prize Hit Rate: NOT DEFINED
+  Max Advertised Award Hit Rate (<50m): NOT DEFINED
+  (Ensure this is least likely award)
+
+-----------
+BASIC STATS
+-----------
+
+  Total RTP: 92.473753%
+  Capped RTP: 92.473753%
+  Volatility (s.dev): 6.444280117853482
+  Free Spins Value Volatility (s.dev): 0
+  Base Winnings Volatility (s.dev): 6.444280117853482
+  Uncapped RTP: 92.4738%
+  Base RTP contribution: 92.4738%
+  Free Spins RTP contribution: 0.0000%
+  T-test result (95%): PASS (target: 92.6420%)
+    91.9128%---------------X----|--------------------93.3712%
+  Spins with hits: 7.54
+
+  RTP GRAPH:
+
+      93.37%|                                                                                                    
+            |                                                                                                    
+            |                                                                                                    
+            |                                                                                                    
+            |                                                                                                    
+            |                                                                                                    
+            |                                                                                                    
+            |                                                                                                    
+            |                                                                                                    
+            |                                                                                                    
+            |                                                                                                    
+            |                                                                                                    
+            |                                                                                                    
+            |                                                                                                    
+            |                                                                                                    
+            |                                                                                                    
+            |                                                                                                    
+            |                                                                                                    
+            |                                                                                                    
+            |                                                                                                    
+            |                                                                                                    
+            |                                                                                                    
+      92.64%|                                                                                                    
+            |                                                                                                    
+            |                                                                                                    
+            |                                                                                                    
+            |                                                                                                    
+            |                                                                                                    
+            |                                                                                                    
+            |                                                                                                    
+            |                                                                                                    
+            |                                                                                                    
+            |                                                                                                    
+            |                                                                                                    
+            |                                                                                                    
+            |                                                                                                    
+            |                                                                                                    
+            |                                                                                                    
+            |                                                                                                    
+            |                                                                                                    
+            |                                                                                                    
+            |                                                                                                    
+            |                                                                                                    
+            |                                                                                                    
+            |                                                                                                    
+      91.91%|                                                                                                    
+      -----------------------------------------------------------------------------------------------------------
+            |0%                  20%                 40%                 60%                 80%                 100%
+
+
+---------------
+BASE GAME STATS
+---------------
+
+  Line Winning RTP Contribution: 53.19%
+
+----------------
+FREE SPINS STATS
+----------------
+
+  Average uncapped free spins value (p): Not played
+  Average free spins value (p): Not played
+  Free Spins Hit Rate: Inf
+  Line Winning RTP Contribution: 0.00%
+
+---------
+HIT RATES
+---------
+
+
+  HIT RATES (INCLUDING FREE SPINS)
+    Symbol  :  2 OAK  :  3 OAK    :  4 OAK      :  5 OAK        :
+         0  :    Inf  :      Inf  :        Inf  :          Inf  :
+         1  :  6.909  :   71.765  :    727.096  :    8,108.108  :
+        10  :    Inf  :  112.990  :  1,919.386  :  111,111.111  :
+         2  :    Inf  :   27.198  :    143.554  :    1,537.673  :
+         3  :    Inf  :   12.323  :     67.987  :      550.964  :
+         4  :    Inf  :   11.448  :     58.860  :      425.955  :
+         5  :    Inf  :    4.147  :     24.142  :      153.996  :
+         6  :    Inf  :    3.662  :     22.634  :      156.855  :
+         7  :    Inf  :    4.613  :     14.218  :       83.909  :
+         8  :    Inf  :    3.638  :     43.425  :      269.324  :
+         9  :    Inf  :  610.004  :        Inf  :          Inf  :
+
+

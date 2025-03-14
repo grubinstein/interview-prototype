@@ -1,0 +1,16 @@
+{
+	"reels": {
+		"reelsetOutcomeTables": {
+			"primary": [
+				{
+					"name": "reel_set_A",
+					"weighting": 100000
+				},
+				{
+					"name": "reel_set_B",
+					"weighting": 992
+				}
+			]
+		}
+	}
+}

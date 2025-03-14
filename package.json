@@ -1,0 +1,23 @@
+{
+  "name": "slot-sim",
+  "version": "1.0.0",
+  "description": "Monte carlo simulator and prototype framework for slot games",
+  "main": "index.js",
+  "build": {
+    "appId": "slot-sim"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Gabriel Rubinstein",
+  "type": "module",
+  "private": true,
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {
+    "@pixi/sound": "^5.0.0",
+    "express": "^4.18.2",
+    "lodash": "^4.17.21",
+    "pixi.js": "^7.1.3"
+  }
+}

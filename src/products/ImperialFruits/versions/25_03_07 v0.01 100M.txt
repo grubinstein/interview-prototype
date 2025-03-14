@@ -1,0 +1,58 @@
+***********************
+* 25_03_07 V0.01 100M *
+***********************
+
+------
+CONFIG
+------
+
+  Timestamp: 07/03/2025, 17:29:23
+  Maths Version: v0.01
+  Stake Type: default
+  Random Seed: 367819136
+  Stake: 100
+  Command: sim -r 100m
+  Cycles run: 100,000,000
+
+----------
+REGULATORY
+----------
+
+  1000x Win Hit Rate (>300k): 265,957.45
+  500x Win Hit Rate: 41,373.60
+  Verification RTP: 102.22% (first 1m)
+  Max Single Base Game Prize Hit Rate: NOT DEFINED
+  Max Advertised Award Hit Rate (<50m): NOT DEFINED
+  (Ensure this is least likely award)
+
+-----------
+BASIC STATS
+-----------
+
+  Total RTP: 101.169226%
+  Capped RTP: 101.169226%
+  Volatility (s.dev): 7.8399767165608205
+  Free Spins Value Volatility (s.dev): 0
+  Base Winnings Volatility (s.dev): 7.8399767165608205
+  Uncapped RTP: 101.1692%
+  Base RTP contribution: 101.1692%
+  Free Spins RTP contribution: 0.0000%
+  T-test result (95%): FAIL (target: 96.5000%)
+    96.3463%--------------------|--------------------96.6537%
+  Spins with hits: 7.34
+
+---------------
+BASE GAME STATS
+---------------
+
+  Line Winning RTP Contribution: 101.17%
+
+----------------
+FREE SPINS STATS
+----------------
+
+  Average uncapped free spins value (p): Not played
+  Average free spins value (p): Not played
+  Free Spins Hit Rate: Inf
+  Line Winning RTP Contribution: 0.00%
+
